@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+    background-image: url(ab4.png);
+    background-size: cover;
+    background-position: inherit;
+    background-attachment: fixed;
+  }
+/*FOR HEADING AND NAVBAR*/
+.v1_4 {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+    display:flex;
+    align-items:center;
+  }
+  .topnav {
+    padding:10px;
+    width: 1525px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  .topnav a {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Playfair Display;
+  }
+  
+  .topnav a:hover {
+    background-color: #DAA06D;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:#CD7F32;
+    color: black;
+  }
+  .headerLogo {
+    margin:auto;
+    display:inline-block;
+  } 
+  .headerLogo1 {
+    float: right;
+    margin:auto;
+    display:inline-block;
+  } 
+  /*FOR 3 Round Box*/
+  .v1_2 {
+    width: 100%;
+    height: 1024px; 
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v2_2 {
+    width: 100%;
+    height: 1024px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v2_4 {
+    width: 250px;
+    height: 70px;
+    background: rgba(246,130,93,1);
+    opacity: 0.4000000059604645;
+    position: absolute;
+    top: 108px;
+    left: 56px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+  }
+  .v2_5 {
+    width: 250px;
+    height: 70px;
+    background: rgba(186,250,175,1);
+    opacity: 0.4000000059604645;
+    position: absolute;
+    top: 233px;
+    left: 60px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+  }
+  .v2_6 {
+    width: 35px;
+    height: 30px;
+    opacity: 0.7;
+    position: absolute;
+    top: 125px;
+    left: 9px;
+  }
+  .v2_7 {
+    width: 35px;
+    height: 30px;
+    opacity: 0.7;
+    position: absolute;
+    top: 65px;
+    left: 9px;
+  }
+  .v2_8 {
+    width: 86px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 133px;
+    left: 134px;
+    font-family: Lora;
+    font-weight: Extra Bold Italic;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v2_9 {
+    width: 101px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 254px;
+    left: 134px;
+    font-family: Lora;
+    font-weight: Extra Bold Italic;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v4_2 {
+    width: 250px;
+    height: 70px;
+    background: rgba(242,215,75,1);
+    opacity: 0.4000000059604645;
+    position: absolute;
+    top: 350px;
+    left: 56px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+  }
+  .v4_3 {
+    width: 35px;
+    height: 30px;
+    opacity: 0.7;
+    position: absolute;
+    top: 185px;
+    left: 9px;
+  }
+  .v4_4 {
+    width: 73px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 371px;
+    left: 134px;
+    font-family: Lora;
+    font-weight: Extra Bold Italic;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v6_12 {
+    color: #161414;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+    position: absolute;
+    width: 438px;
+    height: 251px;
+    left: 1050px;
+    top: 200px;
+  }
+  .img1{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 950px;
+    left: 15px;
+  }
+  .img2{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 1050px;
+    left: 550px;
+  }
+  .img3{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 1150px;
+    left: 1100px;
+  }

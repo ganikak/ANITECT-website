@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+/*FOR HEADING AND NAVBAR*/
+.v1_4 {
+    width: 100%;
+    height: auto;
+    background: rgba(241,236,191,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+    display:flex;
+    align-items:center;
+  }
+  .topnav {
+    background-color: #fdf9f9;
+    padding:10px;
+    width: 1525px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  .topnav a {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Playfair Display;
+  }
+  
+  .topnav a:hover {
+    background-color: #DAA06D;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:#CD7F32;
+    color: black;
+  }
+  .headerLogo {
+    margin:auto;
+    display:inline-block;
+  } 
+  .headerLogo1 {
+    float: right;
+    margin:auto;
+    display:inline-block;
+  } 
+
+  /*FOR CONTACT FORM*/
+  .v2_3 {
+    width: 1500;
+    height: auto;
+    background: rgba(191,194,151,1);
+    opacity: 1;
+    position: absolute;
+    right: 17px;
+    left: 17px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+  }
+  input[type=text], select, textarea {    
+    width: 1000px;
+    top: 40px;    
+    padding: 20px;   
+    border: 1px solid rgb(70, 68, 68);    
+    border-radius: 4px;    
+    resize: vertical;    
+  }    
+  input[type=email], select, textarea {    
+    width: 1000px; 
+    top: 40px;   
+    padding: 20px;
+    border: 1px solid rgb(70, 68, 68);    
+    border-radius: 4px;    
+    resize: vertical;    
+  }    
+      
+  label {    
+    padding: 20px 12px 12px 45px;
+    top: 40px;     
+    display: inline-block;   
+    font-size: 20px;
+    font-weight: SOurce Sans Pro; 
+  }    
+      
+  input[type=submit] {    
+    background-color: rgb(138, 41, 6);    
+    color: white;    
+    padding: 16px 32px;   
+    border: none;    
+    border-radius: 4px;    
+    cursor: pointer;    
+    margin-left:700px;
+  }    
+      
+  input[type=submit]:hover {    
+    background-color: #bb6509;    
+  }    
+
+  .col-25 {    
+    float: left;    
+    width: 25%;    
+    margin-top: 6px;    
+  }    
+      
+  .col-75 {    
+    float: left;    
+    width: 75%;    
+    margin-top: 6px;    
+  }    
+     
+  .row:after {    
+    content: "";    
+    display: table;    
+    clear: both;    
+  }    
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
